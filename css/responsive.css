@@ -1,0 +1,279 @@
+/* lg */ 
+@media (min-width: 1200px) {
+ /* Make Navigation Toggle on Desktop Hover */
+  .dropdown:hover .dropdown-menu {
+      display: block;
+      -webkit-animation: fadeInUp 400ms;
+      animation: fadeInUp 400ms;
+  }
+
+  #portfolio .row {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+.recent-work-wrap .overlay{
+   padding: 5px;
+  }
+
+  
+
+}
+
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+ /* Make Navigation Toggle on Desktop Hover */
+  .dropdown:hover .dropdown-menu {
+      display: block;
+      -webkit-animation: fadeInUp 400ms;
+      animation: fadeInUp 400ms;
+  }
+
+  .navbar-nav > li {
+    margin-left: 10px;
+  }
+
+  .navbar-collapse {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .recent-work-wrap .recent-work-inner h3 a {
+    font-size: 20px;
+  }
+
+  .recent-work-wrap .overlay{
+    padding: 5px;
+  }
+
+  .services-wrap {
+    padding: 40px 10px 40px 30px;
+  }
+
+  .feature-wrap h2, 
+  .single-services h2 {
+    font-size: 18px;
+  }
+
+  .feature-wrap h3, 
+  .single-services h3{
+    font-size: 14px;
+  }
+
+  .tab-wrap .media .parrent.pull-left{
+    clear: both;
+    width: 100%;
+  }
+
+  .tab-wrap .media .parrent.media-body{
+    clear: both;
+  }
+
+  #portfolio .row {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+
+  .recent-work-wrap .overlay .preview{
+    line-height: inherit;
+  }
+
+  ul.social_icons li{
+    margin-right: 0;
+  }
+
+}
+
+
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Make Navigation Toggle on Desktop Hover */
+  .dropdown:hover .dropdown-menu {
+      display: block;
+      -webkit-animation: fadeInUp 400ms;
+      animation: fadeInUp 400ms;
+  }
+
+  .navbar-collapse {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .navbar-nav > li {
+    margin-left: 0;
+  }
+
+  #main-slider .carousel h1 {
+    font-size: 25px;
+  }
+
+  #main-slider .carousel h2 {
+    font-size: 20px;
+  }
+
+  .tab-wrap .media .parrent.pull-left, 
+  .media.accordion-inner .pull-left{
+    clear: both;
+    width: 100%;
+  }
+
+  .tab-wrap .media .parrent.media-body, 
+  .media.accordion-inner .media-body{
+    clear: both;
+  }
+
+  .services-wrap {
+    padding: 40px 0 40px 30px;
+  }
+
+  .recent-work-wrap .overlay{
+   padding: 5px;
+  }
+
+  .recent-work-wrap .recent-work-inner h3 a {
+    font-size: 20px;
+  }
+    .carousel-inner {
+    
+    height: 660px;
+  }
+  
+}
+
+/* xs */
+@media (max-width: 767px) {
+  .container > .navbar-header, .container > .navbar-collapse{
+    margin-left: 0;
+  }
+
+  .top-number{
+    font-size: 14px;
+  }
+
+  input.search-form:hover {
+    width: 120px;
+  }
+
+  .navbar-nav > li {
+    padding-bottom: 0;
+  }
+
+  #main-slider .carousel h1 {
+    font-size: 25px;
+  }
+
+  #main-slider .carousel h2 {
+    font-size: 16px;
+  }
+
+  .feature-wrap h2, 
+  .single-services h2 {
+    font-size: 18px;
+  }
+
+  .feature-wrap h3, 
+  .single-services h3{
+    font-size: 14px;
+  }
+
+
+  .media.accordion-inner .pull-left, 
+  .media.accordion-inner .media-body{
+    clear: both;
+  }
+
+  .accordion-inner h4 {
+    margin-top: 10px;
+  }
+
+  .tab-wrap .media .pull-left{
+    clear: both;
+    width: 100%;
+  }
+
+  .tab-wrap .media .media-body{
+    clear: both;
+  }
+    .recent-work-wrap .overlay{
+   padding: 5px;
+  }
+
+  .nav-tabs > li.active > a:after{
+    display: none;
+  }
+
+  #footer .col-sm-6{
+      text-align:center;
+  }
+  
+   #footer .pull-right{
+      float: none !important;
+  }
+    .carousel-inner {
+    
+    height: 500px;
+  }
+#main-slider .carousel .carousel-content {
+  margin-top: 50px;
+}
+
+#main-slider .carousel .slide-margin{
+  margin-top: 40px;
+}
+
+}
+
+
+
+
+/* XS Portrait */
+@media (max-width: 480px) {
+    .carousel-inner {
+    
+    height: 400px;
+  }
+  .portfolio-filter > li a {
+  background: none repeat scroll 0 0 #FFFFFF;
+  font-size: 10px;
+  font-weight: 400;
+  margin-right: 10px;
+  text-transform: uppercase;
+  transition: all 0.9s ease 0s;
+  -moz-transition: all 0.9s ease 0s;
+  -webkit-transition: all 0.9s ease 0s;
+  -o-transition: all 0.9s ease 0s;
+  border: 1px solid #F2F2F2;
+  outline: none;
+  border-radius: 3px;
+  }
+  body > section {
+  padding: 5px 0;
+}
+
+.center {
+  text-align: center;
+  padding-bottom: 10px;
+}
+}
+/* XS Landscape */
+@media (max-height: 480px) {
+    .carousel-inner {
+    
+    height: 225px;
+  }
+#main-slider .carousel .carousel-content {
+  margin-top: 5px;
+}
+
+#main-slider .carousel .slide-margin{
+  margin-top: 5px;
+}
+  body > section {
+  padding: 5px 0;
+}
+
+.center {
+  text-align: center;
+  padding-bottom: 5px;
+}
+}
